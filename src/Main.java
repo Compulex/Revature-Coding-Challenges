@@ -1,5 +1,12 @@
-import java.sql.SQLOutput;
-import java.util.Arrays;
+/**
+ * 05-01-23
+ * Create a function that takes numbers b and m as arguments and returns the derivative of the function
+ * f(x)=x^b with respect to x evaluated at x=m, where b and m are constants.
+ * Example
+ *  derivative(1, 4) ➞ 1
+ *  derivative(3, -2) ➞ 12
+ *  derivative(4, -3) ➞ -108
+ */
 
 public class Main {
     public static void main(String[] args) {
