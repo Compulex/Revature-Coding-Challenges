@@ -1,3 +1,5 @@
+package WarOfNumbers;
+
 /**
  * 05-01-23
  * There's a great war between the even and odd numbers. Many numbers already lost their lives in this war, and it's
@@ -16,8 +18,9 @@
  * warOfNumbers([5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243]) ➞ 168
  */
 
-public class Main {
-    public static void main(String[] args) {
+public class WarOfNumbers {
+
+    public static void main(String[] args){
         int a = warOfNumbers(new int[]{2, 8, 7, 5});
         System.out.println(a);
 
@@ -38,7 +41,6 @@ public class Main {
                 sum_odd += j;
             }
         }
-
         return Math.abs(sum_even - sum_odd);
     }
 }
